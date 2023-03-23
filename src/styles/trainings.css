@@ -1,0 +1,130 @@
+.trainings-container {
+  background-color: rgb(234, 243, 252);
+  padding: 40px 80px 20px;
+  overflow: hidden;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.card-container {
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+
+.header-container .right-btn {
+  display: flex;
+  gap: 1rem;
+}
+.title {
+  color: rgb(139, 138, 138);
+}
+.trainings-container .title {
+  margin: 0;
+}
+.cancel-btn {
+  color: rgb(139, 138, 138) !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+.cancel-btn:hover {
+  text-decoration: underline;
+  background-color: transparent !important;
+  color: rgb(139, 138, 138);
+}
+.update-btn {
+  background-color: orangered !important;
+  border: none !important;
+}
+.update-btn:hover {
+  background-color: rgb(255, 166, 0) !important;
+}
+.first-cards {
+  height: 100% !important;
+  margin-bottom: 15px !important;
+}
+
+.first-cards .btn-outline-primary {
+  background-color: transparent;
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.first-cards .btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.dpd-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.btn-new {
+  border: none !important;
+  margin: 0;
+}
+.btn-new:hover {
+  background-color: transparent !important;
+  color: blue !important;
+}
+.dpd-btn {
+  width: 100%;
+  background-color: transparent !important;
+  border: 1px solid rgba(122, 122, 122, 0.459) !important;
+  border-left: none !important;
+  color: black !important;
+  margin: 6px 0;
+}
+.dpd-btn1 {
+  width: 100%;
+  background-color: transparent !important;
+  border: 1px solid rgba(122, 122, 122, 0.459) !important;
+  border-right: none !important;
+  color: black !important;
+  margin: 6px 0;
+}
+.dpd-btn2 {
+  width: 100%;
+  background-color: transparent !important;
+  border: 1px solid rgba(122, 122, 122, 0.459) !important;
+  color: black !important;
+  margin: 6px 0;
+}
+.textarea {
+  margin: 6px 0;
+}
+.icon {
+  background-color: transparent !important;
+  border: 1px solid rgba(122, 122, 122, 0.459) !important;
+  border-right: none !important;
+  padding: 8px !important;
+  height: 38px;
+  margin-top: 6px !important;
+}
+.icon1 {
+  background-color: transparent !important;
+  border: 1px solid rgba(122, 122, 122, 0.459) !important;
+  border-left: none !important;
+  padding: 8px !important;
+  height: 38px;
+  margin-top: 6px !important;
+}
+@media (max-width: 1024px) {
+  .trainings-container {
+    padding: 20px 30px 10px;
+    overflow: hidden;
+  }
+  .first-cards {
+    height: auto;
+    margin-bottom: 15px !important;
+  }
+  .card-container {
+    height: auto;
+    margin-bottom: 15px !important;
+  }
+  .right-btn {
+    width: 50% !important;
+    height: 50% !important;
+  }
+}
